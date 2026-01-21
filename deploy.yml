@@ -13,6 +13,7 @@
         name: nginx
         state: present
         update_cache: yes
+      become: yes
 
     - name: GitHub 저장소에서 최신 소스 코드 배포
       git:
