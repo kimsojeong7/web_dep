@@ -5,7 +5,7 @@
   vars:
     # 본인의 GitHub 저장소 주소로 변경
     git_repo_url: "https://github.com/kimsojeong7/web_dep.git"
-    web_root: "/var/www/html"
+    web_root: "/var/www/html/web_dep"
 
   tasks:
     - name: Nginx 웹 서버 설치
